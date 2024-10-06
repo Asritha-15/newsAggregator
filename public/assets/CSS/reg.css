@@ -1,0 +1,58 @@
+/* Registration Section */
+.registration-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.registration-section h2 {
+    color: #640D5F; /* Dark Purple */
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    display: inline-block;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.registration-form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    padding: 10px 20px;
+    background-color: #D91656; /* Pinkish Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration-form button:hover {
+    background-color: #EE66A6; /* Light Pink on hover */
+}
+
+/* Links for login */
+.registration-links {
+    margin-top: 10px;
+}
+
+.registration-links a {
+    color: #D91656; /* Pinkish Red */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.registration-links a:hover {
+    text-decoration: underline;
+}

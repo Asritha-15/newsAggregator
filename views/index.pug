@@ -1,0 +1,60 @@
+//- extends layout // Make sure "layout.pug" exists in the views folder
+
+//- block content
+//-   doctype html
+//-   html(lang="en")
+//-     head
+//-       meta(charset="UTF-8")
+//-       meta(name="viewport" content="width=device-width, initial-scale=1.0")
+//-       title News Aggregator
+//-       link(rel="stylesheet", href="assets/CSS/styles.css")
+
+//-     body
+//-       #navbar-placeholder
+      
+      //- main
+      //-   .content
+      //-     h1 News aggregator that curates content based on your mood, delivering personalized headlines and deep dives.
+      //-     a.btn-green(href="#") Read News360 in your browser
+//-           .download-buttons
+//-             a.app-btn(href="#") Download on the App Store
+//-             a.app-btn(href="#") Get it on Google Play
+
+//-       style.
+//-         body {
+//-           background-image: url('../assets/image');
+//-           background-size: cover;
+//-           background-position: center;
+//-         }
+
+//-       script.
+//-         fetch('navbar.html')
+//-         .then(response => response.text())
+//-         .then(data => {
+//-           document.getElementById('navbar-placeholder').innerHTML = data;
+//-         })
+//-         .catch(error => {
+//-           console.error('Error fetching navbar:', error);
+//-         });
+
+//-       script(src="script.js")
+
+
+//- index.pug
+extends layout
+
+block content
+  //- Header Placeholder
+  
+
+  main.landing
+    .glass-container
+      h1 News Aggregator
+      p News aggregator that curates content based on your mood, delivering personalized headlines and deep dives.
+      .buttons
+        a.btn(href="/login") Login       
+        a.btn(href="/Registration") Register 
+  
+
+  //- JavaScript Files
+  script(src="./assets/javascript/script.js")
